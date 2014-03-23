@@ -71,11 +71,7 @@ nmap , \
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>nr :NERDTree<CR>
 map <silent> <LocalLeader>nf :NERDTreeFind<CR>
-map <silent> <LocalLeader>t :CommandT<CR>
-map <silent> <LocalLeader>cf :CommandTFlush<CR>
-map <silent> <LocalLeader>cb :CommandTBuffer<CR>
-map <silent> <LocalLeader>cj :CommandTJump<CR>
-map <silent> <LocalLeader>ct :CommandTTag<CR>
+map <silent> <LocalLeader>t :CtrlP<CR>
 imap <C-L> <SPACE>=><SPACE>
 
 let g:CommandTAcceptSelectionSplitMap=['<C-s>']
